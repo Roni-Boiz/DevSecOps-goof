@@ -16,7 +16,7 @@ services:
     container_name: goof-mongo
     image: mongo:3
     ports:
-      - "27017:27017"
+      - "27018:27017"
   goof-mysql:
     container_name: goof-mysql
     image: mysql:5
@@ -24,4 +24,4 @@ services:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: acme
     ports:
-      - "3306:3306"
+      - "3307:3306"
